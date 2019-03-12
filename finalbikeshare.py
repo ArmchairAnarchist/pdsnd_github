@@ -203,13 +203,13 @@ def user_stats(df):
     print('-'*40)
 """ Ask the user if they want to see raw data and keeps showing them this until they say no"""
 def display_data (df):
-    user_input = input('\nWhat would you like to see raw data?\nPlease enter yes or no\n').lower()
+    user_input = input('\nWant to see raw data?\nPlease enter yes or no\n').lower()
     if user_input in ('yes', 'y'):
         i = 0
     while True:
         print(df.iloc[i:i+5])
         i += 5
-        more_data = input('Would you like to see more data? Please enter yes or no: ').lower()
+        more_data = input('Want to see more data? Please enter yes or no: ').lower()
         if more_data not in ('yes', 'y'):
             break
 
