@@ -93,7 +93,7 @@ def load_data(city, month, day):
 
 
 def time_stats(df):
-    """Displays statistics on the most frequent times of travel."""
+    """Displays statistics on the most frequent times, dates and days of travel."""
 
     print('\nCalculating The Most Frequent Times of Travel...\n')
     start_time = time.time()
@@ -201,7 +201,7 @@ def user_stats(df):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
-
+""" Ask the user if they want to see raw data and keeps showing them this until they say no"""
 def display_data (df):
     user_input = input('\nWhat would you like to see raw data?\nPlease enter yes or no\n').lower()
     if user_input in ('yes', 'y'):
