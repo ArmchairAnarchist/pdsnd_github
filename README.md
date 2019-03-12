@@ -5,7 +5,7 @@
 
 
 ### Description
-This project is an interactive python script that quantitively investigates the use of Bikeshare facilities in Chicago, New York City and Washington. It was the second of three projects I completed on Udacity's Programming for Data Science.  
+This project is an interactive python script that quantitively investigates the use of Bikeshare facilities in Chicago, New York City and Washington. It was the second of three projects I completed on Udacity's Programming for Data Science. This will be my **first** github project!  
 
 ### Files used
 finalbikeshare.py
